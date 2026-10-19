@@ -4,11 +4,38 @@ body{
   background-color: #0f90e6;
 }
 
-li{
- display: inline-block;
-    width: 24%;
-    text-align: center;
-    height: 95px;
-    background: lightskyblue;
-    line-height: 95px;
+/*
+li {
+    display: inline;
+    margin: 10px;
+}
+*/
+
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+nav img {
+    width: 10%;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+}
+
+
+.grid img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
