@@ -39,3 +39,8 @@ nav img {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+a[href="#main"]:focus {
+    background-color: yellow;
+    color: black;
+}
